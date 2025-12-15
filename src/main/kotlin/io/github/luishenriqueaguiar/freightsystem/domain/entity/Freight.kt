@@ -3,6 +3,7 @@ package io.github.luishenriqueaguiar.freightsystem.domain.entity
 import io.github.luishenriqueaguiar.freightsystem.domain.vo.FreightId
 import io.github.luishenriqueaguiar.freightsystem.domain.vo.Money
 import io.github.luishenriqueaguiar.freightsystem.domain.vo.Weight
+import io.github.luishenriqueaguiar.freightsystem.infrastructure.persistence.entity.FreightJpaEntity
 import java.math.BigDecimal
 import java.time.LocalDateTime
 
