@@ -20,7 +20,7 @@ data class Freight(
 ) {
     fun calculatePricing(tariffPerKg: Money): Freight {
         if (status != FreightStatus.DRAFT) {
-            throw IllegalStateException("Cannot calculate price for a freight that is not in DRAFT"
+            throw IllegalStateException("Cannot calculate price for a freight that is not in DRAFT")
         }
 
         val calculatedPrice = Money(
